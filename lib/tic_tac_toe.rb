@@ -160,5 +160,8 @@ def play(board)
     turn(board)
   end
   player_x_o = winner(board)
-  puts "Congratulations #{player_x_o}!"
+  if player_x_o
+    puts "Congratulations #{player_x_o}!"
+  else
+    puts "Cat's Game!"
 end

@@ -160,4 +160,5 @@ def play(board)
     turn(board)
     current_player(board)
   end
+  winner(board)
 end

@@ -158,7 +158,6 @@ end
 def play(board)
   while !over?(board) do
     turn(board)
-    #current_player(board)
   end
-  #puts winner(board)
+  puts winner(board)
 end

@@ -159,5 +159,6 @@ def play(board)
   while !over?(board) do
     turn(board)
   end
-  puts winner(board)
+  player_x_o = winner(board)
+  puts "Congratulations #{player_x_o}!"
 end

@@ -147,14 +147,8 @@ def winner(board)
 end
 #END OF HELPER METHODS
 
-#def play(board)
-#plays = 0
-#  until plays == 9
-#    turn(board)
-#    plays += 1
-#  end
-#end
 
+#starts the game
 def play(board)
   while !over?(board) do
     turn(board)
